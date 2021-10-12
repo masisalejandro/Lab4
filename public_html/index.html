@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/css.css"/>
+    </head>
+    <body>
+        <div id="contenedor">
+            <span id="pantalla">
+                <input type="text" class=input_sinborde id="txt_pantalla1" placeholder="000000" readonly/>   
+                <input type="text" class=input_sinborde id="txt_pantalla" placeholder="000000" readonly/>  
+            </span>
+            <div id="contenedor2">
+                <button class="boton1" onclick="colocar_numero('7');">7</button>
+                <button class="boton1" onclick="colocar_numero('8');">8</button>
+                <button class="boton1" onclick="colocar_numero('9');">9</button>
+                <button class="boton1" onclick="operacion('/');">/</button> <br><br>
+                <button class="boton1" onclick="colocar_numero('4');">4</button>
+                <button class="boton1" onclick="colocar_numero('5');">5</button>
+                <button class="boton1" onclick="colocar_numero('6');">6</button>
+                <button class="boton1" onclick="operacion('*');">*</button> <br><br>
+                <button class="boton1" onclick="colocar_numero('1');">1</button>
+                <button class="boton1" onclick="colocar_numero('2');">2</button>
+                <button class="boton1" onclick="colocar_numero('3');">3</button>
+                <button class="boton1" onclick="operacion('-');">-</button> <br><br>
+                <button class="boton1" onclick="colocar_numero('0');">0</button>
+                <button class="boton1" onclick="punto('.');">.</button>
+                <button class="boton1" onclick="resolver('=');">=</button>
+                <button class="boton1" onclick="operacion('+');">+</button> <br><br>
+                <button class="boton2" onclick="borrar();">AC</button>
+                <button class="boton2" onclick="borrar_ultimo();">C</button>
+                <button class="boton1" onclick="operacion('√');">√</button>
+                <button class="boton1" onclick="operacion('^');">^</button> <br><br>
+            </div>            
+        </div>
+    </body>
+    
+    <script src="script/operaciones.js">  </script>
+    
+</html>

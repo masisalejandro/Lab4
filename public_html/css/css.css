@@ -1,0 +1,102 @@
+
+
+#contenedor{
+    
+    width: 205px;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+    border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    border: 0px solid #000000;
+    background-color: #bfbfbf;
+    
+    position: relative;
+    
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: left;
+    padding-left: 6px;
+
+}
+
+#contenedor2{
+    
+    height: 60px;
+    width: 174px;
+    align-content: center;
+   
+    margin-left: 12px;
+    
+    position: absolute;
+    top: 35%;
+    z-index: 50; 
+    
+    position: absolute;
+
+}
+
+#pantalla{
+    height: 50px;
+    width: 175px;
+    align-content: center;
+    
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border: 0px solid #000000;
+    background-color: #ffffff;
+    
+    margin-left: 9px;
+    
+    position: absolute;
+    top: 15%;
+    z-index: 50; 
+    
+    position: absolute;
+
+}
+
+.boton1{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #3b3b3b;
+    
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+    
+}
+
+.boton2{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #de3c5f;
+    
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+    
+}
+
+.input_sinborde {
+  border: 0;
+  background-color: rgba(100, 100, 100, 0);
+  margin-left: 10px;
+  margin-top: 4px;
+}
